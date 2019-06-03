@@ -1,3 +1,5 @@
+@import './background.css';
+
 body {
   color: rgba(255,255,255,0.65);
   background-color: #24292e;
@@ -86,4 +88,24 @@ a {
 
 .bg-body {
   background-color: #24292e;
+}
+
+.align-bottom {
+  vertical-align: bottom;
+}
+
+.avatar {
+  border: 4px solid #d8dadc;
+}
+
+@media (max-width: 768px) {
+  #content {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .avatar {
+    max-width: 50%;
+  }
 }
