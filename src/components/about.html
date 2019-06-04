@@ -1,0 +1,67 @@
+<script>
+  var love = [
+    'JavaScript',
+    'React',
+    'GraphQL',
+    'Redux',
+    'Vue',
+    'Vuex',
+    'Node.js',
+    'Marko.js',
+    'Effector',
+    'Photoshop',
+    'Illustrator',
+    'LESS',
+    'SASS/SCSS',
+    'Stylus',
+    'Jade',
+    'TypeScript',
+    'git',
+    'Rust',
+    'Unity3d',
+    'elixir',
+    'MongoDB',
+    'ArangoDB',
+    'Jest',
+    'Webpack',
+    'Parcel',
+    'HTML',
+    'CSS',
+    'Jade (Pug)',
+    'Ect.js',
+    'RXJS',
+  ];
+
+  var no_love = [
+    'php',
+    'basic',
+    'pascal',
+    'Angular',
+    'NativeScript',
+    'Bootstrap',
+    'C#',
+    'Postgres',
+    'Jasmine',
+    'jQuery',
+    'Laravel',
+    'Blade',
+    'NGRX',
+  ];
+</script>
+
+<div class="border-top border-gray-dark pt-4 text-left f4">
+  <p>Experienced Front-end designer and developer with a demonstrated history of working in the design industry. Skilled
+    in Front-end development and Web Design. Strong business development professional graduated from Riga Technical College.
+    <br/>
+    <br/>
+    In free time loves to create new and challanging projects and open source software.</p>
+  <p>Technologies I like to work with:
+    <br />
+    ${love.map((tag) => `<span class="Label Label--gray f5">${tag}</span>`).join(' ')}
+  </p>
+  <br/>
+  <p>Technologies I know quite well, but don't want to work with (don't mind it's used in company overall):
+    <br />
+    ${no_love.map((tag) => `<span class="Label Label--gray f5">${tag}</span>`).join(' ')}
+  </p>
+</div>
