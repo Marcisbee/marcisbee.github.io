@@ -14,13 +14,10 @@ function makeNewPosition($container) {
 
 function setStyle(el, type, value) {
   el.style[type] = value;
-  el.style['-o-' + type] = value;
-  el.style['-moz-' + type] = value;
-  el.style['-webkit-' + type] = value;
 }
 
 window.addEventListener('scroll', function () {
-  var scrollTop = document.body.scrollTop;
+  var scrollTop = window.pageYOffset || document.body.scrollTop;
   if (1400 >= scrollTop) {
     var pos = (scrollTop / 8);
     document.querySelectorAll('.marcisbee-bg-layer.layer-1').forEach((el) => {

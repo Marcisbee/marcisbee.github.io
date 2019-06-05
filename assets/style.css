@@ -12,6 +12,10 @@ a {
   color: #5098e4;
 }
 
+#content img {
+  max-width: 100%;
+}
+
 .border-translucent-white {
   border-color: rgba(255,255,255,0.1) !important;
 }
@@ -103,6 +107,49 @@ a {
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.photo-stack img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.modal-backdrop {
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
+.modal {
+  box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1),0 4px 8px rgba(16,22,26,.2),0 18px 46px 6px rgba(16,22,26,.2);
+  top: 50%;
+  left: 50%;
+  animation: zoom-me 0.16s forwards;
+  max-width: 100%;
+}
+
+.modal img {
+  border-radius: 6px;
+}
+
+@keyframes fade-me {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoom-me {
+  0% {
+    opacity: 0.3;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
 }
 
 @media (max-width: 768px) {

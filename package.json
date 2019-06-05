@@ -19,12 +19,6 @@
     "url": "https://github.com/Marcisbee/marcisbee.github.io/issues"
   },
   "homepage": "https://github.com/Marcisbee/marcisbee.github.io#readme",
-  "dependencies": {
-    "@primer/css": "^12.4.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "less": "^3.9.0",
-    "parcel-bundler": "^1.12.3"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
