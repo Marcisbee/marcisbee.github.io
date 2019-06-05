@@ -1,0 +1,24 @@
+{
+  "name": "marcisbee.github.io",
+  "version": "1.0.0",
+  "description": "Hello world!",
+  "main": "dist/bundle.js",
+  "source": "src/foo.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcisbee/marcisbee.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcisbee/marcisbee.github.io/issues"
+  },
+  "homepage": "https://github.com/Marcisbee/marcisbee.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
